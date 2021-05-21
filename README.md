@@ -7,3 +7,11 @@ The end goal of our group project was to create an application with which you ca
 If you want to find out more about our project, check out our code and read more below. 
 
 ## Table of contents
+
+
+## General Information
+## Technologies
+## Setup
+## Program Structure
+## Authors
+## Appendix - Libraries Description
