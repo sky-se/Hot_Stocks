@@ -16,8 +16,36 @@ If you want to find out more about our project, check out our code and read more
 
 
 ## General Information
+adad
+awd
+awd
+aw
+da
+wd
+a
+wd
+a
+wd
+aw
+d
+aw
+d
+awd
+a
+wd
+a
+wd
+
 ## Technologies
+
+
 ## Setup
+
+
 ## Program Structure
+
+
 ## Authors
+
+
 ## Appendix - Libraries Description
