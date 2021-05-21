@@ -1,4 +1,4 @@
-# Hot_Stocks_Bachelor
+# Hot_Stocks
 
 Hey there! You have stumbled upon the student project "Hot Stocks", which is part of the course "Skills: Programming - Introduction Level" by Mario Silic (Spring Semester 2021 at the University of St.Gallen).
 
