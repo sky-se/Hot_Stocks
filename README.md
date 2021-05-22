@@ -28,7 +28,7 @@ For further library descriptions refer to [Appendix - Libraries Description](#ap
 ## Setup
 To run this application, it is recommended to use a Jupyter Notebook. 
 
-The easiest way to get all required modules would be to run the [Startup](Startup.ipynb) file. This file runs the following commands:
+The easiest way to get all required libraries would be to run the [Startup](Startup.ipynb) file. This file runs the following commands:
 
 ```
 !pip install streamlit
@@ -62,3 +62,12 @@ Noah Nolè
 
 ## Appendix - Libraries Description
 
+[Streamlit](https://docs.streamlit.io/en/stable/) is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps.
+
+[Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+
+[Yfinance](https://pypi.org/project/yfinance/) offers a reliable, threaded, and Pythonic way to download historical market data from Yahoo! finance.
+
+[Plotly](https://plotly.com/) is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+
+[Base64](https://docs.python.org/3/library/base64.html) provides functions for encoding binary data to printable ASCII characters and decoding such encodings back to binary data. It provides encoding and decoding functions for the encodings specified in RFC 3548, which defines the Base16, Base32, and Base64 algorithms, and for the de-facto standard Ascii85 and Base85 encodings.
