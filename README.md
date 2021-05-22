@@ -20,7 +20,7 @@ The goal of this project is to provide the user with an efficient way of receivi
 
 The reason we did not make a trading bot is that the common overbought/oversold strategy should not be the only factor that is considered for a trade. Volatility and other numerous factors play a big role and should not be reduced down to a small calculation.
 
-The suggestions provided by our tool should be seen as what they are, suggestions. Trading is a complicated affair and our tool does not offer financial advice.
+The suggestions provided by our tool should be seen as what they are — suggestions. Trading is a complicated affair and our tool does not offer financial advice.
 
 ## Technologies
 - Python Version: 3.8.5
