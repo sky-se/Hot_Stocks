@@ -26,7 +26,23 @@ If you want to find out more about our project, check out our code and read more
 For further library descriptions refer to [Appendix - Libraries Description](#appendix---libraries-description).
 
 ## Setup
+To run this application, it is recommended to use a Jupyter Notebook. 
 
+The easiest way to get all required modules would be to run the [Startup](Startup.ipynb) file. This file runs the following commands:
+
+```
+!pip install streamlit
+!pip install pandas
+!pip install yfinance
+!pip install plotly
+```
+and 
+
+```
+!streamlit run Hot_Stocks.py
+```
+
+These commands install the necessary modules and run the [Hot Stocks](Hot_Stocks.py) application.
 
 ## Program Structure
 
