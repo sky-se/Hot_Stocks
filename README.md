@@ -44,6 +44,13 @@ and
 
 These commands install the necessary modules and run the [Hot Stocks](Hot_Stocks.py) application.
 
+If you are having trouble opening the application, check if your [Hot Stocks](Hot_Stocks.py) file is in the right directory.
+It needs to be in the default Anaconda run location to function, or you have to start it manually with the Anaconda Console by going to the right directory.
+
+In most cases your default Anaconda directory is `C:\Users\Username`.
+
+If you decide to run the application from the command prompt, use `streamlit run Hot_Stocks.py` after navigating to the right directory.
+
 ## Program Structure
 
 
