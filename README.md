@@ -16,7 +16,11 @@ If you want to find out more about our project, check out our code and read more
 
 
 ## General Information
+The goal of this project is to provide the user with an efficient way of receiving potential trade suggestions using the common RSI (Relative Strength Index) strategy. In this strategy stocks are classified as overbought, oversold or neither. Using this strategy we are interested in the oversold and overbought stocks. We identify those stocks by calculating the RSI. When a stock has an RSI of more than 70, the stock is considered overbought and a common strategy is shorting/selling the aforementioned stock. The same case applies when the stock has an RSI of less than 30. This means it is oversold and one should consider longing/buying this stock.
 
+The reason we did not make a trading bot is that the common overbought/oversold strategy should not be the only factor that is considered for a trade. Volatility and other numerous factors play a big role and should not be reduced down to a small calculation.
+
+The suggestions provided by our tool should be seen as what they are, suggestions. Trading is a complicated affair and our tool does not offer financial advice.
 
 ## Technologies
 - Python Version: 3.8.5
