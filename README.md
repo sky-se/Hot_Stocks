@@ -16,7 +16,11 @@ If you want to find out more about our project, check out our code and read more
 
 
 ## General Information
+- Python Version: 3.8.5
+- Jupyter Notebook: To install Juypter Notebook, please refer to https://jupyter.org/install
+- Libraries used: `streamlit`, `pandas`, `yfinance`, `plotly`, `base64`
 
+For further library descriptions refer to [Appendix - Libraries Description](#appendix---libraries-description).
 
 ## Technologies
 
@@ -29,6 +33,8 @@ If you want to find out more about our project, check out our code and read more
 
 ## Authors
 
+Christian Bernard Mathieu
+Noah Nolè
 
 ## Appendix - Libraries Description
 
