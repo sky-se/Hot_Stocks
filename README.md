@@ -34,6 +34,7 @@ For further library descriptions refer to [Appendix - Libraries Description](#ap
 ## Authors
 
 Christian Bernard Mathieu
+
 Noah Nolè
 
 ## Appendix - Libraries Description
