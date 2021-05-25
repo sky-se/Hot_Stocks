@@ -65,13 +65,13 @@ We recommend that you use the light theme of streamlit for readability. [How to 
 
 Firstly, the user needs to import all required packages to run the code correctly and without errors.
 
-- Packages to import: streamlit, pandas, yfinance, plotly, base64
+- Packages to import: ```streamlit```, ```pandas```, ```yfinance```, ```plotly```, ```base64```
 
 - No further data needs to be downloaded as the real time stock prices are retrieved using yfinance library and the company data is retrieved through web scraping Wikipedia.
 
 ### Chapter 1: Preliminary steps to create the app
 
-The authors recommend to use streamlit as the main platform to show the data and engage with the user to provide him or her with a flexible and easy-to-use app. As streamlit enables the app to receive user inputs as well as to show the results in a website-like setting, users of this Trading Suggestion App can work intuitively in a very familiar environment. However, to achieve these results, we first need to do some preliminary steps to create this user-friendly environment:
+The authors recommend to use ```streamlit``` as the main platform to show the data and engage with the user to provide him or her with a flexible and easy-to-use app. As streamlit enables the app to receive user inputs as well as to show the results in a website-like setting, users of this Trading Suggestion App can work intuitively in a very familiar environment. However, to achieve these results, we first need to do some preliminary steps to create this user-friendly environment:
 
 - Set the page layout, title, and description
 
@@ -81,7 +81,7 @@ The authors recommend to use streamlit as the main platform to show the data and
 
 ### Chapter 2: Real-time stock data retrieving and RSI calculation
 
-In a third step, we need to retrieve the daily stock price of our companies. The yfinance library allows the user to do that pretty easily. However, it is important to include all Ticker Symbols (of all S&P 100 firms) and save the retrieved data in a separate variable, so that we can use them in our RSI calculation. The defined compute_rsi(data, time_window) function computes the RSI of each stock through the following calculations:
+In a third step, we need to retrieve the daily stock price of our companies. The ```yfinance``` library allows the user to do that pretty easily. However, it is important to include all Ticker Symbols (of all S&P 100 firms) and save the retrieved data in a separate variable, so that we can use them in our RSI calculation. The defined compute_rsi(data, time_window) function computes the RSI of each stock through the following calculations:
 
 1) RS = Average Gain / Average Loss
 
@@ -99,7 +99,7 @@ In a third step, we need to retrieve the daily stock price of our companies. The
 
 6) Average Loss = [(previous Average Loss) * 13 + current Loss] / 14
 
-As the RSI is a kind of moving average, the calculations should include a smoothing technique, which is achieved through the second calculations. In Python, using yfinance, we can calculate the difference in stock price (on day) through the .diff(1) function. The up change should be equal to the positive difference (if difference = 0, the up_change should be 0 as well). The same for the negative difference (down_change). In order to get the mean of our changes (up and down) we can use the .mean() function in combination with the .ewm() function and set the com to the defined time_window (by default usually 14 days) minus 1, to get the decay of alpha=1/time_window (as values are related to exponential decay). To get to our RS we need to divide our up_change_average with our down_change_average (and take the absolute value of this result). Lastly, the RSI can be calculated with 100 – 100/(1+RS)) as stated above.
+As the RSI is a kind of moving average, the calculations should include a smoothing technique, which is achieved through the second calculations. In Python, using ```yfinance```, we can calculate the difference in stock price (on day) through the ```.diff(1)``` function. The up change should be equal to the positive difference (if ```difference``` = 0, the ```up_change``` should be 0 as well). The same for the negative difference ```down_change```. In order to get the mean of our changes ```up``` and ```down``` we can use the ```.mean()``` function in combination with the ```.ewm()``` function and set the com to the defined ```time_window``` (by default usually 14 days) minus 1, to get the decay of ```alpha=1/time_window``` (as values are related to exponential decay). To get to our RS we need to divide our ```up_change_average``` with our ```down_change_average``` (and take the absolute value of this result). Lastly, the RSI can be calculated with ```100 – 100/(1+RS)``` as stated above.
 
 ### Chapter 3: GET ALL HOT STOCKS
 
@@ -107,7 +107,7 @@ Now, it is important to separate the companies that have an RSI of lower than 30
 
 ### Chapter 4: Show the data in a user-friendly way
 
-Lastly, it is important to show the data in a clear, easy-to-use and simple-to-understand way. In order to achieve this, the authors mainly used the .add_trace, .update_yaxes, .updates_xaxes, .update_layout, go.Scatter and .make_subplots functions of the plotly library to show the RSI development of a stock in a subplot underneath the corresponding stock price development plot. This is done because the RSI strategy is based on price and RSI development over a given timeframe.
+Lastly, it is important to show the data in a clear, easy-to-use and simple-to-understand way. In order to achieve this, the authors mainly used the ```.add_trace```, ```.update_yaxes```, ```.updates_xaxes```, ```.update_layout```, ```go.Scatter``` and ```.make_subplots``` functions of the ```plotly``` library to show the RSI development of a stock in a subplot underneath the corresponding stock price development plot. This is done because the RSI strategy is based on price and RSI development over a given timeframe.
 
 ## Authors
 
