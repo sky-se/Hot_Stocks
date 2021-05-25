@@ -81,7 +81,7 @@ The authors recommend to use ```streamlit``` as the main platform to show the da
 
 ### Chapter 2: Real-time stock data retrieving and RSI calculation
 
-In a third step, we need to retrieve the daily stock price of our companies. The ```yfinance``` library allows the user to do that pretty easily. However, it is important to include all Ticker Symbols (of all S&P 100 firms) and save the retrieved data in a separate variable, so that we can use them in our RSI calculation. The defined compute_rsi(data, time_window) function computes the RSI of each stock through the following calculations:
+In a third step, we need to retrieve the daily stock price of our companies. The ```yfinance``` library allows the user to do that pretty easily. However, it is important to include all Ticker Symbols (of all S&P 100 firms) and save the retrieved data in a separate variable, so that we can use them in our RSI calculation. The defined ```compute_rsi(data, time_window)``` function computes the RSI of each stock through the following calculations:
 
 1) RS = Average Gain / Average Loss
 
