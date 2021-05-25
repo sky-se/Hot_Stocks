@@ -67,7 +67,7 @@ Firstly, the user needs to import all required packages to run the code correctl
 
 - Packages to import: ```streamlit```, ```pandas```, ```yfinance```, ```plotly```, ```base64```
 
-- No further data needs to be downloaded as the real time stock prices are retrieved using yfinance library and the company data is retrieved through web scraping Wikipedia.
+- No further data needs to be downloaded as the real time stock prices are retrieved using yfinance library and the company data is retrieved through web scraping [Wikipedia](https://de.wikipedia.org/wiki/S%26P_100).
 
 ### Chapter 1: Preliminary steps to create the app
 
