@@ -57,6 +57,8 @@ In most cases your default Anaconda directory is `C:\Users\Username`.
 
 If you decide to run the application from the command prompt, use `streamlit run Hot_Stocks.py` after navigating to the right directory.
 
+We recommend that you use the light theme of streamlit. A tutotial on how to change the theme: [Streamlit theme change](https://blog.streamlit.io/introducing-theming/)
+
 ## Program Structure
 
 
