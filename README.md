@@ -103,7 +103,7 @@ As the RSI is a kind of moving average, the calculations should include a smooth
 
 ### Chapter 3: GET ALL HOT STOCKS
 
-Now, it is important to separate the companies that have an RSI of lower than 30 or higher than 70, as they are considered hot and thereby relevant for the user.  He or she might want to execute some trades based on this information. To separate the hot stocks, we can iterate through our RSI computed stocks and append them to a new list if their current/newest RSI is either < 30 or > 70. This new list can be used in a last step to provide only the relevant data to our user.
+Now, it is important to separate the companies that have an RSI of ```lower than 30``` or ```higher than 70```, as they are considered hot and thereby relevant for the user.  He or she might want to execute some trades based on this information. To separate the hot stocks, we can iterate through our RSI computed stocks and append them to a new list if their current/newest RSI is either ```< 30``` or ```> 70```. This new list can be used in a last step to provide only the relevant data to our user.
 
 ### Chapter 4: Show the data in a user-friendly way
 
