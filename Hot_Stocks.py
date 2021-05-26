@@ -36,7 +36,7 @@ def load_sp_data():
 
 
 sp_df = load_sp_data()
-sp_df["Symbol"] = sp_df["Symbol"].replace(to_replace="BRK.B", value="BRK-B")    #yfinance tickers are sometimes different from the NYSE format
+sp_df["Symbol"] = sp_df["Symbol"].replace(to_replace="BRK.B", value="BRK-B")    # yfinance tickers are sometimes different from the NYSE format
 
 # Show overview of S&P 100 companies
 st.header('Companies in S&P 100')
